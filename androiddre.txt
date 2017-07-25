@@ -1,0 +1,19 @@
+1, repo tool
+	1.1, Download and config the repo tool in your computer.
+		1) You can get that in this website:  https://github.com/android-dre/androiddre_readme/repo 
+		2) In your user top path:
+			mkdir bin
+			cd bin
+			copy repo in current directory
+			PATH=~/bin:$PATH
+
+2, Download code of androiddre
+	repo init -u https://github.com/android-dre/manifests.git
+	repo sync
+
+3, build kernel
+	make bootimage -jN
+	
+4, build bootloader
+	make bootloader -jN
+
