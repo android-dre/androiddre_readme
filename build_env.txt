@@ -1,0 +1,22 @@
+1, sudo apt-get install make gcc
+	# build Uboot Kernel OK
+2, sudo apt-get install ncurses-dev 
+	#surport kernel make menuconfig
+sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0
+sudo apt-get install libc6-dev-i386 zlib1g-dev g++-multilib lib32z1-dev lib32ncurses5-dev libxml2-utils uuid-dev liblzo2-dev
+sudo apt-get install vim curl git gitg bison flex gperf u-boot-tools minicom openssh-server dos2unix gawk
+sudo apt-get install git-core gnupg flex bison gperf build-essential \
+zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
+lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
+libgl1-mesa-dev libxml2-utils xsltproc unzip
+
+3, openJDK
+	3.1 Install openJDK
+		openJDK 1.7 : sudo apt-get install sudo apt-get install openjdk-7-jdk
+		openJDK 1.8 : sudo apt-get install sudo apt-get install openjdk-8-jdk
+
+	3.2, Switch java versions
+		update-alternatives --config java
+	
+	3.3, Check the java version
+		java --verison  or  javac -version
