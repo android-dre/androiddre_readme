@@ -10,6 +10,10 @@
 2, Download code of androiddre
 	repo init -u https://github.com/android-dre/manifests.git
 	repo sync
+#if you need the AOSP code from google or USTC.edu
+#	From Google: 	repo init -u https://android.googlesource.com/platform/manifest
+#	From USTC.EDU:  repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest
+#	Choose branch:	repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-7.1.1_r38
 
 3, build kernel
 	make bootimage -jN
